@@ -1,0 +1,40 @@
+.page-wr {
+    gap: 1.5rem;
+}
+
+.header-sec {
+    color: var(--black);
+    gap: 0.25rem;
+}
+
+.header-sec > h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 0.25rem;
+}
+
+.header-btn {
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.25rem 0.75rem;
+    border: 2px solid transparent;
+    border-radius: var(--br-cr);
+    outline: none;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    transform: scale(1.05); 
+}
+
+.header-btn-selected {
+    background-color: var(--filter-btn);
+    border-color: var(--border);
+}
+
+.page-content-grid{
+    display: grid;
+    grid-template-columns: 33% 67%;
+    gap: 1.5rem;
+    margin-right: 1.5rem;
+}

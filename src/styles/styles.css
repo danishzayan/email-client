@@ -1,0 +1,17 @@
+@import url("./variables.css");
+@import url("./utility.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--nunito);
+    scroll-behavior: smooth;
+    padding: 1.5rem 2rem 0 2rem;
+}

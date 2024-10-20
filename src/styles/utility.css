@@ -1,0 +1,27 @@
+.u_fx-row,
+.u_fx-col {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.u_fx-row {
+    flex-direction: row;
+}
+
+.u_fx-col {
+    flex-direction: column;
+}
+
+.u_fx-js-sb {
+    justify-content: space-between;
+}
+
+.u_fx-al-cn {
+    align-items: center;
+}
+
+.u_fx-cn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
